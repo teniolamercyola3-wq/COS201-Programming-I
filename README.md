@@ -66,3 +66,56 @@ java ErrorExample
 - Understanding the difference between `print()` and `println()`.
 - Using single-line and multi-line comments.
 - Identifying and correcting basic syntax errors.
+
+## Week 3 – Variables, Data Types, Expressions and Input/Output
+
+### Objectives
+- Declare and initialise Java variables.
+- Use appropriate data types.
+- Perform arithmetic calculations.
+- Receive keyboard input using Scanner.
+- Display formatted results.
+- Compile and test Java programs.
+
+### Programs
+
+1. `week03/SimpleCalculator.java`
+   - Accepts two numbers and performs addition, subtraction, multiplication and division.
+
+2. `week03/AverageCalculator.java`
+   - Accepts three examination scores and calculates their total and average.
+
+3. `week03/ItemCost.java`
+   - Accepts an item name, quantity and unit price and calculates the total cost.
+
+### How to Run
+
+Open CMD inside the `week03` directory.
+
+**Simple Calculator**
+```cmd
+javac SimpleCalculator.java
+java SimpleCalculator
+```
+
+**Average Calculator**
+```cmd
+javac AverageCalculator.java
+java AverageCalculator
+```
+
+**Item Cost**
+```cmd
+javac ItemCost.java
+java ItemCost
+```
+
+### Testing
+Each program should be tested with different valid inputs to confirm that the calculations are correct.
+
+### Learning Outcomes
+- Understanding variables and data types.
+- Using arithmetic operators.
+- Receiving input with Scanner.
+- Performing calculations using Java.
+- Displaying results using print, println and printf.
